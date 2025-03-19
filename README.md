@@ -16,15 +16,6 @@ This project predicts **household electricity savings** using **solar panels**. 
 📁 **Solar_Savings_Notebook.ipynb** → Jupyter Notebook with **code, visualizations, and ML models**.  
 📁 **Solar_Savings_Documentation.md** → Detailed **project report**.
 
-## 🔮 Prediction Example
-```python
-import joblib
-model = joblib.load("solar_savings_rf_model.pkl")
-predicted_savings = model.predict([[3, 1200, 800, 300, 2000, 6.5, 30, 15, 7, 4, 20, 150000]])
-print(f"Predicted Savings: ₹{predicted_savings[0]:.2f}")
-```
-✅ Example Output: **₹48,500.00 saved annually**
-
 ## 🏆 Best Model Performance
 | Model                         | MAE   | RMSE  | R² Score |
 |--------------------------------|-------|-------|---------|
