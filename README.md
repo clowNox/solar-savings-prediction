@@ -14,23 +14,7 @@ This project predicts **household electricity savings** using **solar panels**. 
 📁 **solar_savings_dataset_updated.csv** → Dataset used for analysis.  
 📁 **solar_savings_rf_model.pkl** → Trained model (Random Forest).  
 📁 **Solar_Savings_Notebook.ipynb** → Jupyter Notebook with **code, visualizations, and ML models**.  
-📁 **Solar_Savings_Documentation.md** → Detailed **project report**.  
-📁 **README.md** → This file! 🙂  
-
-## 🔧 Setup & Installation
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/solar-savings-prediction.git
-   cd solar-savings-prediction
-   ```
-2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run the Jupyter Notebook**
-   ```bash
-   jupyter notebook Solar_Savings_Notebook.ipynb
-   ```
+📁 **Solar_Savings_Documentation.md** → Detailed **project report**.
 
 ## 🔮 Prediction Example
 ```python
